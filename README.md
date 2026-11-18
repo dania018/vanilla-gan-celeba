@@ -83,10 +83,6 @@ After every epoch, the model saves a grid of 8 generated faces to show how it's 
 
 ## Results
 
-| Epoch 1 | Epoch 12 |
-|---|---|
-| ![Epoch 1](assets/epoch_01.png) | ![Epoch 12](assets/epoch_12.png) |
-
 - Rough face shapes, skin tones and hair appear within the **first epoch**
 - Losses stay balanced through training (**G-loss ≈ 1.0–1.5, D-loss ≈ 0.55–0.65**), so neither network overpowers the other
 - Later epochs show more varied features such as hairstyles, backgrounds and even sunglasses
